@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Website Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    
+  <div class="container">
+
+    <section class="header-section">
+      <h1 class="header-text" id="name-text">Trevor Armes</h1>
+      <nav class="navigation">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="about.html" class="nav-button">About</a>
+        <a href="contact.html" class="nav-button">Contact</a>
+        <a href="projects.html" class="nav-button">Projects</a>
+      </nav>
+      <h1 class="header-text" id="introduction">Introducing My Site</h1>
+      <p id="intro-text">If you're curious enough to have made it this far, I thank you. Hopefully I can provide the seeker with more context to me, my life, or my business. You are more than welcome to inquire about anything that needs further explanation. Enjoy yourself...</p>
+    </section>
+
+    <div class="img-section">
+      <img class="mid-img" src="img/walkway.jpg" alt="Image of code snippets across the screen">
+    </div>
+
+    <section class="project-section">
+      <img class="project-box" src="img/city.jpg">
+      <img class="project-box" src="img/bike.jpg">
+      <img class="project-box" src="img/pasture.jpg">
+      <img class="project-box" src="img/milky.jpg">
+      <div class="project-box" id="word-box">
+        <p>From the forests to the cities, and to the stars and back, we all have a place somewhere. Help me find mine.</p>
+        <a href="projects.html" class="button">My Projects</a>
+      </div>
+    </section>
+
+    <footer>
+      <a href="contact.html" class="button">Contact Me</a>
+      <!-- I wanted to do a button here, but you actually can't use the href attribute with a button. So I used an anchor. -->
+    </footer>
+  </div>
 </body>
 </html>
