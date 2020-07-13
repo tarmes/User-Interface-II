@@ -172,7 +172,25 @@ a.button:hover {
 }
 
 @media(max-width: 800px){
+	.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
+  .project-box {
+    width: 24%;
+  }
+
+  .project-section {
+    flex-wrap: wrap;
+  }
+
+  #word-box {
+    width: 100%;
+    margin-top: 32px;
+    padding: 0 4%;
+  }
 }
 
 @media(max-width: 600px){
