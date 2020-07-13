@@ -194,5 +194,43 @@ a.button:hover {
 }
 
 @media(max-width: 600px){
+	.container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+  }
 
+  #name-text {
+    font-size: 4.8rem;
+  }
+
+  #introduction {
+    font-size: 4.0rem;
+  }
+
+  #intro-text {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .project-box {
+    width: 48%;
+    margin: 8px 0;
+    border: 1px solid black;
+  }
+
+  .project-section {
+    flex-wrap: wrap;
+  }
+
+  #word-box {
+    width: 100%;
+    margin-top: 32px;
+    padding: 0 4%;
+    border: none;
+  }
+
+  footer {
+    border: 1px solid black;
+  }
 }
