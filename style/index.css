@@ -170,3 +170,11 @@ a.button:hover {
   background-color: #555555;
   color: white;
 }
+
+@media(max-width: 800px){
+
+}
+
+@media(max-width: 600px){
+
+}
